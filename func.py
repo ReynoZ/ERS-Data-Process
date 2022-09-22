@@ -40,8 +40,8 @@ def plot_figure(wvlen,obj_reflect,ref_reflect,obj_index,samplename):
     tgt_reflect = np.reshape(ref_reflect[:,obj_index],(2151,))
     plt.scatter(wvlen,tgt_reflect[0:1500],color='red')
 
-    plt.xlabel('Reflectance')
-    plt.ylabel('Wavelength')
+    plt.ylabel('Reflectance')
+    plt.xlabel('Wavelength')
     plt.title(samplename,fontsize = 25)
     plt.legend([samplename,'USGS reference'],loc='lower right',fontsize = 20)
     
