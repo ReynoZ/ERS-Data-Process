@@ -22,11 +22,11 @@ Main target of the assignment 1 has been achieved.
 
 ## Assignment 2
 
-Download Landsat surface reflectance images, and use the spectral profile tool to extract typical spectral reflectance profiles for vegetation, water, urban area, clouds, etc.
+TASK DESCRIPTION: Download Landsat surface reflectance images, and use the spectral profile tool to extract typical spectral reflectance profiles for vegetation, water, urban area, clouds, etc.
 
-I download the Landsat 8 surface relectance images from the USGS website and pre-processed the images by opening them in ENVI 5.3.
+I downloaded the Landsat 8 surface relectance images from the USGS website and pre-processed the images with ENVI 5.3.
 
-The exported spectral profiles data contains values stored in signed 16bit format. So I used Python for radiometric calibration, convert the original value to reflectance by mutiplying the data by the scale factor 0.0001.
+The exported spectral profiles data contains values stored in signed 16bit format. So I used Python for radiometric calibration, converted the original value to reflectance by mutiplying the data by the scale factor 0.0001.
 
 Four typical points(vegetation, water, urban area and clouds) are selected. The output figure is as below,
 
