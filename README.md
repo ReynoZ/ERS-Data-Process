@@ -22,7 +22,7 @@ Main target of the assignment 1 has been achieved.
 
 ## Assignment 2
 
-TASK DESCRIPTION: Download Landsat surface reflectance images, and use the spectral profile tool to extract typical spectral reflectance profiles for vegetation, water, urban area, clouds, etc.
+**TASK DESCRIPTION:** Download Landsat surface reflectance images, and use the spectral profile tool to extract typical spectral reflectance profiles for vegetation, water, urban area, clouds, etc.
 
 I downloaded the Landsat 8 surface relectance images from the USGS website and pre-processed the images with ENVI 5.3.
 
